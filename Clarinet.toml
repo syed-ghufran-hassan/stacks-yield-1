@@ -7,8 +7,10 @@ cache_dir = './.cache'
 
 [[project.requirements]]
 contract_id = 'ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-token'
-
-[contracts]
+[contracts.stacks-yield]
+path = 'contracts/stacks-yield.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
